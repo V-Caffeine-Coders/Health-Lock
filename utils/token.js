@@ -1,24 +1,23 @@
+// FILE: utils/token.js
+
 import jwt from "jsonwebtoken";
+import logger from "../config/logger.js"; 
 
 const JWT_SECRET = process.env.JWT_SECRET;
-const JWT_ISSUER = process.env.JWT_ISSUER || "qr-med-backend";
 
 if (!JWT_SECRET) {
   throw new Error("JWT_SECRET not configured");
 }
 
-export const generateRecordAccessToken = (recordId) => {
-  const payload = { sub: String(recordId), scope: "record:read" };
-  return jwt.sign(payload, JWT_SECRET, {
-    expiresIn: "10m",
-    issuer: JWT_ISSUER,
-  });
+export const createToken = (payload, expiresIn = "1h") => {
+  return jwt.sign(payload, JWT_SECRET, { expiresIn });
 };
 
-export const verifyRecordAccessToken = (token, recordId) => {
-  const decoded = jwt.verify(token, JWT_SECRET, { issuer: JWT_ISSUER });
-  if (String(decoded.sub) !== String(recordId) || decoded.scope !== "record:read") {
-    throw new Error("Invalid token subject or scope");
+export const verifyToken = (token) => {
+  try {
+    return jwt.verify(token, JWT_SECRET);
+  } catch (error) {
+    logger.error({ error }, "Token verification failed.");
+    return null;
   }
-  return decoded;
 };

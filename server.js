@@ -1,6 +1,5 @@
 // FILE: server.js
-
-import 'dotenv/config'; // This is the corrected line
+import 'dotenv/config'; // This line must be at the top
 import app from "./app.js";
 import { connectDB } from "./config/db.js";
 import logger from "./config/logger.js";

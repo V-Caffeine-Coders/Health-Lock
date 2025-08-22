@@ -77,12 +77,327 @@
 {"level":"info","message":"🚀 Server running on port 5000"}
 {"level":"info","message":"✅ MongoDB connected"}
 {"level":"info","message":"🚀 Server running on port 5000"}
-{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:43:43.781Z","url":"/"}}
-{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:43:43.945Z","url":"/style.css"}}
-{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:43:43.947Z","url":"/script.js"}}
-{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:43:44.116Z","url":"/favicon.ico"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:03:40.943Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:03:41.098Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:03:41.107Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:03:41.196Z","url":"/favicon.ico"}}
 {"level":"error","message":{"err":{"status":404},"path":"/favicon.ico"}}
-{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T15:44:26.021Z","url":"/api/patient/records"}}
-{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:44:39.163Z","url":"/doctor-scanner.html?id=68a8905a2e42aaf8773d192e&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4OTA1YTJlNDJhYWY4NzczZDE5MmUiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODc3NDY2LCJleHAiOjE3NTU4NzgwNjYsImlzcyI6IlFSX01FRCJ9.6-PNchy9O705PxkZ75tCWYiGtlkfvRyFVYtE9fyqGVw"}}
-{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:44:39.270Z","url":"/style.css"}}
-{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:44:39.286Z","url":"/script.js"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T09:04:03.205Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:04:45.173Z","url":"/doctor-scanner.html?id=68a83283be0159a5c6e1e37d&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4MzI4M2JlMDE1OWE1YzZlMWUzN2QiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODUzNDQ4LCJleHAiOjE3NTU4NTQwNDgsImlzcyI6IlFSX01FRCJ9.MUX97QJgGlVqFO828sZ2GVUdChS1D9drcA3yoQ3y93s"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:04:45.317Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:04:45.320Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:04:52.078Z","url":"/api/records/68a83283be0159a5c6e1e37d?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4MzI4M2JlMDE1OWE1YzZlMWUzN2QiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODUzNDQ4LCJleHAiOjE3NTU4NTQwNDgsImlzcyI6IlFSX01FRCJ9.MUX97QJgGlVqFO828sZ2GVUdChS1D9drcA3yoQ3y93s"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:05:20.056Z","url":"/api/patient/find?email=tanishqlokhande2005%40gmail.com"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:05:20.237Z","url":"/api/logs/patient/68a784528c37c39b04142d1c"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:05:46.124Z","url":"/doctor-scanner.html?id=68a83283be0159a5c6e1e37d&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4MzI4M2JlMDE1OWE1YzZlMWUzN2QiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODUzNDQ4LCJleHAiOjE3NTU4NTQwNDgsImlzcyI6IlFSX01FRCJ9.MUX97QJgGlVqFO828sZ2GVUdChS1D9drcA3yoQ3y93s"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:05:46.156Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:05:46.165Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:05:49.994Z","url":"/api/records/68a83283be0159a5c6e1e37d?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4MzI4M2JlMDE1OWE1YzZlMWUzN2QiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODUzNDQ4LCJleHAiOjE3NTU4NTQwNDgsImlzcyI6IlFSX01FRCJ9.MUX97QJgGlVqFO828sZ2GVUdChS1D9drcA3yoQ3y93s"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T09:05:57.475Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:06:16.959Z","url":"/doctor-scanner.html?id=68a832f5be0159a5c6e1e385&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4MzJmNWJlMDE1OWE1YzZlMWUzODUiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODUzNTcyLCJleHAiOjE3NTU4NTQxNzIsImlzcyI6IlFSX01FRCJ9.xyJmN5a6gvbRpCiQOIcJty91bfGmfscp3GLyEZpbAwA"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:06:17.092Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:06:17.099Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:06:53.085Z","url":"/api/records/68a832f5be0159a5c6e1e385?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4MzJmNWJlMDE1OWE1YzZlMWUzODUiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODUzNTcyLCJleHAiOjE3NTU4NTQxNzIsImlzcyI6IlFSX01FRCJ9.xyJmN5a6gvbRpCiQOIcJty91bfGmfscp3GLyEZpbAwA"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T09:24:41.466Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:24:47.334Z","url":"/doctor-scanner.html?id=68a83759be0159a5c6e1e389&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4Mzc1OWJlMDE1OWE1YzZlMWUzODkiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODU0NjgyLCJleHAiOjE3NTU4NTUyODIsImlzcyI6IlFSX01FRCJ9.6VryqCXOhKMw3yBs7vzVn1ckrn7n-O4kc8txBap_t1Y"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:24:47.463Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:24:47.468Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:24:52.619Z","url":"/api/records/68a83759be0159a5c6e1e389?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4Mzc1OWJlMDE1OWE1YzZlMWUzODkiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODU0NjgyLCJleHAiOjE3NTU4NTUyODIsImlzcyI6IlFSX01FRCJ9.6VryqCXOhKMw3yBs7vzVn1ckrn7n-O4kc8txBap_t1Y"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:24:57.002Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T09:24:57.003Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T10:53:29.923Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T10:53:29.979Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T10:53:29.985Z","url":"/style.css"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T10:53:36.483Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T10:53:41.140Z","url":"/doctor-scanner.html?id=68a84c30408069ec33a95f39&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NGMzMDQwODA2OWVjMzNhOTVmMzkiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYwMDE2LCJleHAiOjE3NTU4NjA2MTYsImlzcyI6IlFSX01FRCJ9.dIa-XKc2YJ1UjJ-zsH5N655ZkXsoSO86-nAen9N19K4"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T10:53:41.294Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T10:53:41.297Z","url":"/script.js"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T10:56:56.542Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T10:56:58.926Z","url":"/doctor-scanner.html?id=68a84cf8408069ec33a95f3c&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NGNmODQwODA2OWVjMzNhOTVmM2MiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYwMjE2LCJleHAiOjE3NTU4NjA4MTYsImlzcyI6IlFSX01FRCJ9.ctR6bjZGD3SbZFh_5Uqp0bNo7WdzG_azgM0KGJ7MLg0"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T10:56:58.987Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T10:56:58.989Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T10:57:01.428Z","url":"/api/records/68a84cf8408069ec33a95f3c?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NGNmODQwODA2OWVjMzNhOTVmM2MiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYwMjE2LCJleHAiOjE3NTU4NjA4MTYsImlzcyI6IlFSX01FRCJ9.ctR6bjZGD3SbZFh_5Uqp0bNo7WdzG_azgM0KGJ7MLg0"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T10:57:05.151Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T10:57:05.154Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:00:47.759Z","url":"/doctor-scanner.html?id=68a84cf8408069ec33a95f3c&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NGNmODQwODA2OWVjMzNhOTVmM2MiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYwMjE2LCJleHAiOjE3NTU4NjA4MTYsImlzcyI6IlFSX01FRCJ9.ctR6bjZGD3SbZFh_5Uqp0bNo7WdzG_azgM0KGJ7MLg0"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:00:47.778Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:00:47.779Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:00:47.783Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:01:05.007Z","url":"/api/records/68a84cf8408069ec33a95f3c?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NGNmODQwODA2OWVjMzNhOTVmM2MiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYwMjE2LCJleHAiOjE3NTU4NjA4MTYsImlzcyI6IlFSX01FRCJ9.ctR6bjZGD3SbZFh_5Uqp0bNo7WdzG_azgM0KGJ7MLg0"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T11:14:12.181Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:14:16.231Z","url":"/doctor-scanner.html?id=68a85104408069ec33a95f41&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NTEwNDQwODA2OWVjMzNhOTVmNDEiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYxMjUyLCJleHAiOjE3NTU4NjE4NTIsImlzcyI6IlFSX01FRCJ9.UOrs7OsWySqIJ7J47qQ7Zm474Ry2grK3gEApZs-hH54"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:14:16.280Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:14:16.286Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:14:19.076Z","url":"/api/records/68a85104408069ec33a95f41?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NTEwNDQwODA2OWVjMzNhOTVmNDEiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYxMjUyLCJleHAiOjE3NTU4NjE4NTIsImlzcyI6IlFSX01FRCJ9.UOrs7OsWySqIJ7J47qQ7Zm474Ry2grK3gEApZs-hH54"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:18:46.822Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:18:46.840Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:18:46.841Z","url":"/script.js"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T11:18:51.931Z","url":"/api/patient/records"}}
+{"level":"error","message":{"err":{"_message":"Record validation failed","errors":{"patient":{"kind":"required","message":"Path `patient` is required.","name":"ValidatorError","path":"patient","properties":{"message":"Path `patient` is required.","path":"patient","type":"required"}}},"message":"Record validation failed: patient: Path `patient` is required.","name":"ValidationError"},"path":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:18:55.438Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:18:55.449Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:19:42.811Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:19:42.867Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:19:42.872Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:19:42.879Z","url":"/script.js"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T11:19:49.094Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T11:19:49.102Z","url":"/api/patient/records"}}
+{"level":"error","message":{"err":{"_message":"Record validation failed","errors":{"patient":{"kind":"required","message":"Path `patient` is required.","name":"ValidatorError","path":"patient","properties":{"message":"Path `patient` is required.","path":"patient","type":"required"}}},"message":"Record validation failed: patient: Path `patient` is required.","name":"ValidationError"},"path":"/api/patient/records"}}
+{"level":"error","message":{"err":{"_message":"Record validation failed","errors":{"patient":{"kind":"required","message":"Path `patient` is required.","name":"ValidatorError","path":"patient","properties":{"message":"Path `patient` is required.","path":"patient","type":"required"}}},"message":"Record validation failed: patient: Path `patient` is required.","name":"ValidationError"},"path":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:21:08.564Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:21:08.582Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:21:08.584Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:21:08.588Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T11:21:21.023Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T11:21:21.033Z","url":"/api/patient/records"}}
+{"level":"error","message":{"err":{"_message":"Record validation failed","errors":{"patient":{"kind":"required","message":"Path `patient` is required.","name":"ValidatorError","path":"patient","properties":{"message":"Path `patient` is required.","path":"patient","type":"required"}}},"message":"Record validation failed: patient: Path `patient` is required.","name":"ValidationError"},"path":"/api/patient/records"}}
+{"level":"error","message":{"err":{"_message":"Record validation failed","errors":{"patient":{"kind":"required","message":"Path `patient` is required.","name":"ValidatorError","path":"patient","properties":{"message":"Path `patient` is required.","path":"patient","type":"required"}}},"message":"Record validation failed: patient: Path `patient` is required.","name":"ValidationError"},"path":"/api/patient/records"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:23:07.211Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:23:07.238Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:23:07.240Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:23:07.247Z","url":"/script.js"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T11:23:15.402Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:23:19.064Z","url":"/doctor-scanner.html?id=68a8532346ea287bfedef6ce&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NTMyMzQ2ZWEyODdiZmVkZWY2Y2UiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYxNzk1LCJleHAiOjE3NTU4NjIzOTUsImlzcyI6IlFSX01FRCJ9.IcC1mtrc-ll39Q1gLPslbEtCxCYmHTLEMItCf0J0esM"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:23:19.120Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:23:19.122Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:23:22.100Z","url":"/api/records/68a8532346ea287bfedef6ce?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NTMyMzQ2ZWEyODdiZmVkZWY2Y2UiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYxNzk1LCJleHAiOjE3NTU4NjIzOTUsImlzcyI6IlFSX01FRCJ9.IcC1mtrc-ll39Q1gLPslbEtCxCYmHTLEMItCf0J0esM"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:23:24.903Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:23:24.915Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:23:37.157Z","url":"/api/records/68a8532346ea287bfedef6ce?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NTMyMzQ2ZWEyODdiZmVkZWY2Y2UiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYxNzk1LCJleHAiOjE3NTU4NjIzOTUsImlzcyI6IlFSX01FRCJ9.IcC1mtrc-ll39Q1gLPslbEtCxCYmHTLEMItCf0J0esM"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:23:38.568Z","url":"/doctor-scanner.html?id=68a8532346ea287bfedef6ce&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NTMyMzQ2ZWEyODdiZmVkZWY2Y2UiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYxNzk1LCJleHAiOjE3NTU4NjIzOTUsImlzcyI6IlFSX01FRCJ9.IcC1mtrc-ll39Q1gLPslbEtCxCYmHTLEMItCf0J0esM"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:23:38.587Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:23:38.589Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:23:38.597Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:23:40.549Z","url":"/api/records/68a8532346ea287bfedef6ce?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NTMyMzQ2ZWEyODdiZmVkZWY2Y2UiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYxNzk1LCJleHAiOjE3NTU4NjIzOTUsImlzcyI6IlFSX01FRCJ9.IcC1mtrc-ll39Q1gLPslbEtCxCYmHTLEMItCf0J0esM"}}
+{"level":"error","message":{"err":{"errorLabelSet":{},"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":{"$oid":"7fffffff0000000000000047"},"maxSetVersion":31,"servers":{"ac-1au4kab-shard-00-00.jineugw.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":5,"t":1755861860}},"signature":{"hash":{"0":15,"1":48,"10":141,"11":78,"12":207,"13":168,"14":204,"15":220,"16":92,"17":115,"18":26,"19":149,"2":155,"3":47,"4":98,"5":197,"6":111,"7":221,"8":145,"9":192},"keyId":7501419132768748000}},"address":"ac-1au4kab-shard-00-00.jineugw.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-1au4kab-shard-00-00.jineugw.mongodb.net:27017","ac-1au4kab-shard-00-01.jineugw.mongodb.net:27017","ac-1au4kab-shard-00-02.jineugw.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":31762969,"lastWriteDate":{"$date":"2025-08-22T11:24:20Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-1au4kab-shard-00-00.jineugw.mongodb.net:27017","minRoundTripTime":29,"minWireVersion":0,"passives":[],"primary":"ac-1au4kab-shard-00-01.jineugw.mongodb.net:27017","roundTripTime":43,"setName":"atlas-11ilcj-shard-0","setVersion":31,"tags":{"availabilityZone":"asia-south1-a","diskState":"READY","nodeType":"ELECTABLE","provider":"GCP","region":"ASIA_SOUTH_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":4,"processId":{"$oid":"68a0d8eb019e345b4760a311"}},"type":"RSSecondary"},"ac-1au4kab-shard-00-01.jineugw.mongodb.net:27017":{"$clusterTime":null,"address":"ac-1au4kab-shard-00-01.jineugw.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31762809,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-1au4kab-shard-00-02.jineugw.mongodb.net:27017":{"$clusterTime":null,"address":"ac-1au4kab-shard-00-02.jineugw.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31765088,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-11ilcj-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}},"path":"/api/records/68a8532346ea287bfedef6ce"}}
+{"level":"error","message":{"err":{"errorLabelSet":{},"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":{"$oid":"7fffffff0000000000000047"},"maxSetVersion":31,"servers":{"ac-1au4kab-shard-00-00.jineugw.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":5,"t":1755861860}},"signature":{"hash":{"0":15,"1":48,"10":141,"11":78,"12":207,"13":168,"14":204,"15":220,"16":92,"17":115,"18":26,"19":149,"2":155,"3":47,"4":98,"5":197,"6":111,"7":221,"8":145,"9":192},"keyId":7501419132768748000}},"address":"ac-1au4kab-shard-00-00.jineugw.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-1au4kab-shard-00-00.jineugw.mongodb.net:27017","ac-1au4kab-shard-00-01.jineugw.mongodb.net:27017","ac-1au4kab-shard-00-02.jineugw.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":31762969,"lastWriteDate":{"$date":"2025-08-22T11:24:20Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-1au4kab-shard-00-00.jineugw.mongodb.net:27017","minRoundTripTime":29,"minWireVersion":0,"passives":[],"primary":"ac-1au4kab-shard-00-01.jineugw.mongodb.net:27017","roundTripTime":43,"setName":"atlas-11ilcj-shard-0","setVersion":31,"tags":{"availabilityZone":"asia-south1-a","diskState":"READY","nodeType":"ELECTABLE","provider":"GCP","region":"ASIA_SOUTH_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":4,"processId":{"$oid":"68a0d8eb019e345b4760a311"}},"type":"RSSecondary"},"ac-1au4kab-shard-00-01.jineugw.mongodb.net:27017":{"$clusterTime":null,"address":"ac-1au4kab-shard-00-01.jineugw.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31762809,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-1au4kab-shard-00-02.jineugw.mongodb.net:27017":{"$clusterTime":null,"address":"ac-1au4kab-shard-00-02.jineugw.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31765088,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-11ilcj-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}},"path":"/api/records/68a8532346ea287bfedef6ce"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:26:58.408Z","url":"/doctor-scanner.html?id=68a8532346ea287bfedef6ce&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NTMyMzQ2ZWEyODdiZmVkZWY2Y2UiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYxNzk1LCJleHAiOjE3NTU4NjIzOTUsImlzcyI6IlFSX01FRCJ9.IcC1mtrc-ll39Q1gLPslbEtCxCYmHTLEMItCf0J0esM"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:26:58.433Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:26:58.434Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:26:58.438Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:27:00.573Z","url":"/api/records/68a8532346ea287bfedef6ce?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NTMyMzQ2ZWEyODdiZmVkZWY2Y2UiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYxNzk1LCJleHAiOjE3NTU4NjIzOTUsImlzcyI6IlFSX01FRCJ9.IcC1mtrc-ll39Q1gLPslbEtCxCYmHTLEMItCf0J0esM"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:36:41.894Z","url":"/doctor-scanner.html?id=68a8532346ea287bfedef6ce&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NTMyMzQ2ZWEyODdiZmVkZWY2Y2UiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYxNzk1LCJleHAiOjE3NTU4NjIzOTUsImlzcyI6IlFSX01FRCJ9.IcC1mtrc-ll39Q1gLPslbEtCxCYmHTLEMItCf0J0esM"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:36:41.913Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:36:41.914Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:36:41.925Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:36:43.445Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:36:43.463Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:36:43.464Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:36:43.470Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T11:36:52.516Z","url":"/api/patient/records"}}
+{"level":"error","message":{"err":{},"path":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:40:26.199Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:40:26.215Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:40:26.220Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:40:26.223Z","url":"/script.js"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T11:40:32.420Z","url":"/api/patient/records"}}
+{"level":"error","message":{"err":{},"path":"/api/patient/records"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T11:41:10.939Z","url":"/api/patient/records"}}
+{"level":"error","message":{"err":{},"path":"/api/patient/records"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T11:46:00.105Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:46:03.091Z","url":"/doctor-scanner.html?id=68a858782fb0f3dabfd145c2&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NTg3ODJmYjBmM2RhYmZkMTQ1YzIiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYzMTYwLCJleHAiOjE3NTU4NjY3NjB9.bnLVSeM_PnDvzjxFioI3YpW0qHDySpzT9jWL_QCZ1NU"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:46:03.156Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:46:03.159Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:46:06.926Z","url":"/api/records/68a858782fb0f3dabfd145c2?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NTg3ODJmYjBmM2RhYmZkMTQ1YzIiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYzMTYwLCJleHAiOjE3NTU4NjY3NjB9.bnLVSeM_PnDvzjxFioI3YpW0qHDySpzT9jWL_QCZ1NU"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:53:28.668Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:53:28.687Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:53:28.691Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:53:28.693Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T11:53:33.994Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T11:53:34.003Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:53:36.802Z","url":"/doctor-scanner.html?id=68a85a3e553d0fcdaae8d1fa&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NWEzZTU1M2QwZmNkYWFlOGQxZmEiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYzNjE0LCJleHAiOjE3NTU4NjQyMTR9.yp4qVWIStuoAKpKRHaIzFYulfIFXdElqRhACYzU9_A4"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:53:36.864Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:53:36.867Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:53:39.510Z","url":"/api/records/68a85a3e553d0fcdaae8d1fa?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NWEzZTU1M2QwZmNkYWFlOGQxZmEiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYzNjE0LCJleHAiOjE3NTU4NjQyMTR9.yp4qVWIStuoAKpKRHaIzFYulfIFXdElqRhACYzU9_A4"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:56:13.941Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:56:13.957Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:56:13.959Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:56:13.962Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T11:56:24.428Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T11:56:24.430Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:56:27.267Z","url":"/doctor-scanner.html?id=68a85ae8553d0fcdaae8d204&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NWFlODU1M2QwZmNkYWFlOGQyMDQiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYzNzg0LCJleHAiOjE3NTU4NjQzODR9.P_tCslgB70V-hFmYTmjqTjth5F-ReWPVSn3M4hM9fbg"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:56:27.327Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:56:27.328Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:56:33.896Z","url":"/doctor-scanner.html?id=68a85ae8553d0fcdaae8d204&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NWFlODU1M2QwZmNkYWFlOGQyMDQiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYzNzg0LCJleHAiOjE3NTU4NjQzODR9.P_tCslgB70V-hFmYTmjqTjth5F-ReWPVSn3M4hM9fbg"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:56:33.943Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:56:33.945Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T11:56:38.283Z","url":"/api/records/68a85ae8553d0fcdaae8d204?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NWFlODU1M2QwZmNkYWFlOGQyMDQiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODYzNzg0LCJleHAiOjE3NTU4NjQzODR9.P_tCslgB70V-hFmYTmjqTjth5F-ReWPVSn3M4hM9fbg"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:00:14.141Z","url":"/api/patient/find?email=tanishqlokhande2005%40gmail.com"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:00:14.178Z","url":"/api/patient/find?email=tanishqlokhande2005%40gmail.com"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:00:14.181Z","url":"/api/logs/patient/68a784528c37c39b04142d1c"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:00:16.020Z","url":"/api/logs/patient/68a784528c37c39b04142d1c"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:04:40.982Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:04:41.010Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:04:41.016Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:04:41.017Z","url":"/script.js"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T12:04:45.914Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T12:04:45.924Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:04:49.033Z","url":"/doctor-scanner.html?id=68a85cdda55d572c6f061071&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NWNkZGE1NWQ1NzJjNmYwNjEwNzEiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODY0Mjg2LCJleHAiOjE3NTU4NjQ4ODZ9.CQEVZUEkL9qBltk-qKyq6Ac55MAvXDg0qThLaxBWsdI"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:04:49.108Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:04:49.111Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:04:51.817Z","url":"/api/records/68a85cdda55d572c6f061071?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4NWNkZGE1NWQ1NzJjNmYwNjEwNzEiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODY0Mjg2LCJleHAiOjE3NTU4NjQ4ODZ9.CQEVZUEkL9qBltk-qKyq6Ac55MAvXDg0qThLaxBWsdI"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:13:18.716Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:13:18.739Z","url":"/i18n.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:13:18.740Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:13:18.742Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:13:18.744Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:14:13.406Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:14:13.422Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:14:13.423Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:14:13.424Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:14:13.425Z","url":"/i18n.js"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:14:13.436Z","url":"/i18n.js"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:15:29.229Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:15:29.251Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:15:29.253Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:15:29.255Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:15:57.572Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:15:57.589Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:15:57.590Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:15:57.592Z","url":"/script.js"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:17:40.871Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:17:40.899Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:17:40.905Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:17:40.908Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:19:12.935Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:19:12.962Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:19:12.963Z","url":"/style.css"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:19:12.965Z","url":"/script.js"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:20:05.736Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:20:05.753Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:20:05.755Z","url":"/style.css"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:20:05.760Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:21:18.357Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:21:18.372Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:21:18.387Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:21:18.393Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:21:45.278Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:21:45.299Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:21:45.307Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:21:49.381Z","url":"/favicon.ico"}}
+{"level":"error","message":{"err":{"status":404},"path":"/favicon.ico"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:21:59.607Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:21:59.619Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:22:51.335Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:22:51.351Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:22:51.352Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:22:51.361Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:22:54.320Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:22:54.335Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:22:54.336Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:22:54.339Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:24:37.530Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:24:37.551Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:24:37.556Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:24:37.557Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:27:22.938Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:27:22.959Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:27:22.960Z","url":"/style.css"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:27:22.966Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:27:25.324Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:27:25.338Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:27:25.343Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:27:25.345Z","url":"/script.js"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:33:27.835Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:33:27.855Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:33:27.856Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T12:33:27.868Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T14:53:36.495Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T14:53:36.536Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T14:53:36.540Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T14:53:40.095Z","url":"/favicon.ico"}}
+{"level":"error","message":{"err":{"status":404},"path":"/favicon.ico"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T14:53:57.779Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T14:53:57.802Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T14:54:01.737Z","url":"/doctor-scanner.html?id=68a884857caf51b3a835baaf&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4ODQ4NTdjYWY1MWIzYTgzNWJhYWYiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODc0NDM4LCJleHAiOjE3NTU4NzUwMzh9.LrLHki0r8F7GXJ7mbgNjwGqiS8uCXPI4l70eRTLXCGM"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T14:54:01.847Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T14:54:01.853Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T14:54:07.437Z","url":"/api/records/68a884857caf51b3a835baaf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4ODQ4NTdjYWY1MWIzYTgzNWJhYWYiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODc0NDM4LCJleHAiOjE3NTU4NzUwMzh9.LrLHki0r8F7GXJ7mbgNjwGqiS8uCXPI4l70eRTLXCGM"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:10:49.772Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:10:49.817Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:10:49.820Z","url":"/script.js"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T15:10:55.779Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T15:10:55.810Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:10:58.719Z","url":"/doctor-scanner.html?id=68a8887f464ab9ecca6868f6&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4ODg3ZjQ2NGFiOWVjY2E2ODY4ZjYiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODc1NDU2LCJleHAiOjE3NTU4NzYwNTZ9.tpOu1D2ng9vU1eDpRXlOoZB4mprPY5YtfVhcq2UzSuE"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:10:58.828Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:10:58.832Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:11:02.710Z","url":"/api/records/68a8887f464ab9ecca6868f6?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4ODg3ZjQ2NGFiOWVjY2E2ODY4ZjYiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODc1NDU2LCJleHAiOjE3NTU4NzYwNTZ9.tpOu1D2ng9vU1eDpRXlOoZB4mprPY5YtfVhcq2UzSuE"}}
