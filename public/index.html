@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patient Dashboard - QR Med</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Patient Dashboard</h1>
+        <p>
+          Upload your medical report and generate a secure QR code for your
+          doctor.
+        </p>
+      </header>
+
+      <main id="patient-app">
+        <div class="card upload-form">
+          <h2>Upload New Report</h2>
+          <form id="upload-form">
+            <label for="patientName">Your Name</label>
+            <input
+              type="text"
+              id="patientName"
+              name="name"
+              placeholder="John Doe"
+              required
+            />
+
+            <label for="patientEmail">Your Email (for notifications)</label>
+            <input
+              type="email"
+              id="patientEmail"
+              name="email"
+              placeholder="john.doe@example.com"
+            />
+
+            <label for="medicalData">Medical Report (PDF format)</label>
+            <input
+              type="file"
+              id="medicalData"
+              name="medicalData"
+              accept="application/pdf"
+              required
+            />
+
+            <button type="submit">Generate QR Code</button>
+          </form>
+        </div>
+        <div id="status-message"></div>
+        <div id="qr-code-display" style="display: none">
+          <h3>Your QR Code</h3>
+          <p>
+            Scan this QR code to grant a doctor access to your medical report.
+          </p>
+          <img id="qr-code-img" alt="QR Code" />
+          <a id="qr-link" href="#" target="_blank">View Report Link</a>
+          <button id="downloadQrBtn" style="margin-top: 10px">
+            Download QR Code
+          </button>
+        </div>
+
+        <div class="card access-logs-section">
+          <h2>Your Record Access History</h2>
+          <label for="patientLogEmail">Enter your email to view logs:</label>
+          <input
+            type="email"
+            id="patientLogEmail"
+            placeholder="john.doe@example.com"
+          />
+          <button id="viewLogsBtn">View Logs</button>
+          <div id="log-status-message"></div>
+          <div id="access-logs">
+            <p>No logs to display yet.</p>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+    <script>
+      // Initialize patient dashboard specific functionality
+      document.addEventListener("DOMContentLoaded", () => {
+        initPatientDashboard();
+      });
+    </script>
+  </body>
+</html>
+s
