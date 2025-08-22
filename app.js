@@ -16,9 +16,14 @@ app.use(
         defaultSrc: ["'self'"],
         imgSrc: ["'self'", "data:", "blob:"],
         styleSrc: ["'self'", "'unsafe-inline'"],
-        scriptSrc: ["'self'", "https://unpkg.com"],
-        // THIS IS THE NEW DIRECTIVE TO ALLOW IFRAMES
-        frameSrc: ["'self'", "data:", "blob:"], 
+        // ADDED Cloudflare access wildcard to script-src
+        scriptSrc: [
+          "'self'", 
+          "https://unpkg.com", 
+          "https://*.cloudflare.com",
+          "https://*.cloudflareaccess.com", 
+          "'unsafe-inline'"],
+        frameSrc: ["'self'", "data:", "blob:"],
       },
     },
   })

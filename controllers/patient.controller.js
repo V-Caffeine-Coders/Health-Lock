@@ -1,5 +1,7 @@
+// FILE: controllers/patient.controller.js
+
 import * as patientService from "../services/patient.service.js";
-import { generateRecordAccessToken } from "../utils/token.js";
+import { createToken } from "../utils/token.js"; // Correct import
 import { generateQRCodeDataUrl } from "../utils/qrcode.js";
 
 export const uploadHistory = async (req, res, next) => {
@@ -15,14 +17,19 @@ export const uploadHistory = async (req, res, next) => {
     }
     const patient = await patientService.ensurePatient(patientInput || {});
     const record = await patientService.saveRecord({ patient, medicalData });
-    const token = generateRecordAccessToken(record._id);
+    
+    // THIS IS THE CORRECTED LINE
+    const token = createToken({ sub: record._id, scope: 'record:read' }, "10m"); 
+    
     const baseUrl = process.env.BASE_URL || "http://localhost:5000";
 
-    // Correct URL to point to the doctor's frontend page
-    const accessUrl = `${baseUrl}/doctor-scanner.html?id=${
-      record._id
-    }&token=${encodeURIComponent(token)}`;
+    const accessUrl = `${baseUrl}/doctor-scanner.html?id=${record._id}&token=${token}`;
     const qrCode = await generateQRCodeDataUrl(accessUrl);
+    
+    // You should also save the accessUrl to the record in the database for log tracking
+    record.accessUrl = accessUrl;
+    await record.save();
+
     return res.status(201).json({
       success: true,
       data: {
