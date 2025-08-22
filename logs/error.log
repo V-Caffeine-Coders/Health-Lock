@@ -7,3 +7,4 @@
 {"level":"error","message":{"err":{},"path":"/api/records/68a7fb0e6451830c6dd8d01a"}}
 {"level":"error","message":{"err":{},"path":"/api/records/68a7fb55245093bd349c67bc"}}
 {"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/favicon.ico"}}

@@ -1,0 +1,12 @@
+[
+    {
+        "filename": "sample_health_report.pdf",
+        "report_date": "2025-08-22",
+        "full_text_content": "Health Report Patient Name: John Doe Age: 35 Gender: Male Patient ID: P123456 Date: 22-Aug-2025 Vitals Height 175 cm Weight 70 kg Blood Pressure 120/80 mmHg Pulse 72 bpm Temperature 98.6 F BMI 22.9 Lab Test Results Test Result Normal Range Blood Sugar (Fasting) 95 mg/dL 70-100 mg/dL Cholesterol 180 mg/dL < 200 mg/dL Hemoglobin 14 g/dL 13-17 g/dL WBC Count 6000 /\u00b5L 4000-11000 /\u00b5L Doctor's Remarks Patient is in good health. Recommended to continue regular exercise and balanced diet. No medication required at this time. Prescription Vitamin D supplements (once daily for 3 months). Doctor: Dr. Smith Hospital: City Health Clinic ",
+        "parsed_data": {
+            "patient_name": "John Doe",
+            "age": "35",
+            "gender": "Male"
+        }
+    }
+]

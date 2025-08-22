@@ -75,3 +75,14 @@
 {"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
 {"level":"info","message":"✅ MongoDB connected"}
 {"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:43:43.781Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:43:43.945Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:43:43.947Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:43:44.116Z","url":"/favicon.ico"}}
+{"level":"error","message":{"err":{"status":404},"path":"/favicon.ico"}}
+{"level":"info","message":{"method":"POST","timestamp":"2025-08-22T15:44:26.021Z","url":"/api/patient/records"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:44:39.163Z","url":"/doctor-scanner.html?id=68a8905a2e42aaf8773d192e&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4OTA1YTJlNDJhYWY4NzczZDE5MmUiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODc3NDY2LCJleHAiOjE3NTU4NzgwNjYsImlzcyI6IlFSX01FRCJ9.6-PNchy9O705PxkZ75tCWYiGtlkfvRyFVYtE9fyqGVw"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:44:39.270Z","url":"/style.css"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:44:39.286Z","url":"/script.js"}}

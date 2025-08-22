@@ -1,0 +1,32 @@
+**Patient Health Summary**
+
+**Patient Name:** John Doe
+**Age:** 35
+**Gender:** Male
+
+---
+
+### **Report from August 22, 2025**
+
+This report provides a snapshot of John Doe's health status on August 22, 2025, based on a recent check-up and lab tests.
+
+**Key Measurements (Vitals):**
+*   **Height:** 175 cm (5 feet 9 inches)
+*   **Weight:** 70 kg (154 lbs)
+*   **Body Mass Index (BMI):** 22.9 (This is considered a healthy weight for your height.)
+*   **Blood Pressure:** 120/80 mmHg (This is in the healthy range, indicating good heart and blood vessel health.)
+*   **Pulse:** 72 beats per minute (This is a normal resting heart rate.)
+*   **Temperature:** 98.6°F (This is a normal body temperature.)
+
+**Lab Test Results:**
+All lab test results from this report are within the normal expected ranges.
+*   **Blood Sugar (Fasting):** 95 mg/dL (Normal range: 70-100 mg/dL). Your sugar levels are healthy.
+*   **Cholesterol:** 180 mg/dL (Normal range: Less than 200 mg/dL). Your cholesterol level is healthy.
+*   **Hemoglobin:** 14 g/dL (Normal range: 13-17 g/dL). Your red blood cell levels are healthy.
+*   **White Blood Cell (WBC) Count:** 6000 /µL (Normal range: 4000-11000 /µL). Your immune system's white blood cell count is healthy.
+
+**Doctor's Notes & Recommendations:**
+Dr. Smith notes that John Doe is currently in good health. To maintain this, the doctor recommends continuing regular exercise and a balanced diet. No specific medications were deemed necessary at the time of the report, but **Vitamin D supplements** were prescribed to be taken once daily for three months.
+
+**Hospital/Clinic:** City Health Clinic
+**Doctor:** Dr. Smith
