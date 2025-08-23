@@ -7,7 +7,6 @@
   <title>Patient Dashboard - QR Med</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
-  <!-- FullCalendar CSS -->
   <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.css" rel="stylesheet" />
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -132,10 +131,9 @@
 <body>
   <div class="container-fluid py-3">
     <div class="row g-3">
-      <!-- Sidebar -->
-      <!-- Bootstrap Icons CDN -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
 
+<<<<<<< HEAD
       <!-- Sidebar -->
       <aside class="col-md-2 sidebar p-3 vh-100 d-flex flex-column justify-content-between">
         <!-- Logo -->
@@ -188,26 +186,78 @@
         </div>
         <button class="btn btn-outline-dark btn-sm me-2" > Logout</button>
       </aside>
+=======
+      <aside class="col-md-2 sidebar p-3 vh-100 d-flex flex-column justify-content-between">
+  <div>
+    <div class="text-center mb-4">
+      <img src="/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png" alt="Logo"
+        style="height: 80px;" />
+    </div>
+
+    <ul class="nav flex-column">
+      <li class="nav-item mb-3">
+        <a href="#" class="nav-link">
+          <i class="bi bi-house-fill me-2"></i> Overview
+        </a>
+      </li>
+      <li class="nav-item mb-3">
+        <a href="#" class="nav-link">
+          <i class="bi bi-cloud-arrow-up-fill me-2"></i> Upload
+        </a>
+      </li>
+      <li class="nav-item mb-3">
+        <a href="#" class="nav-link">
+          <i class="bi bi-clock-history me-2"></i> History
+        </a>
+      </li>
+      <li class="nav-item mb-3">
+        <a href="#" class="nav-link">
+          <i class="bi bi-bell-fill me-2"></i> Alerts
+        </a>
+      </li>
+      <li class="nav-item mb-3">
+        <a href="#" class="nav-link">
+          <i class="bi bi-person-circle me-2"></i> My Profile
+        </a>
+      </li>
+      <li class="nav-item mb-3 d-flex justify-content-between align-items-center">
+        <a href="#" class="nav-link">
+          <i class="bi bi-chat-dots-fill me-2"></i> Messages
+        </a>
+        <span class="badge bg-danger">3</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="text-center mt-3">
+    <button class="btn btn-outline-primary btn-sm me-2">English</button>
+    <button class="btn btn-outline-success btn-sm">हिन्दी</button>
+  </div>
+   <button class="btn btn-outline-dark btn-sm me-2"> Logout</button>
+</aside>
+>>>>>>> 95c1d4f7511edf4a32b9f9a9581104f7e693521f
 
 
-
-
-      <!-- Main Content -->
       <main class="col-md-7">
         <div class="row g-2">
-          <!-- Profile -->
           <div class="col-md-6">
+<<<<<<< HEAD
             <div class="card profile p-3 text-center card p-3 text-center d-flex flex-column align-items-center border-none">
              
                 <img src="/Health-Lock/public/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png" 
                   class="profile mb-3" style="width:120px; height:120px; object-fit:cover;">
                 <h4>John Doe</h4>
               
+=======
+            <div class="card profile p-3 text-center">
+              <img src="https://via.placeholder.com/100" alt="profile" />
+              <h4 id="patient-name" class="mt-2">John Doe</h4>
+>>>>>>> 95c1d4f7511edf4a32b9f9a9581104f7e693521f
               <div class="row mt-3 text-center">
-                <div class="col-6"><b>24</b><br />Years</div>
-                <div class="col-6"><b>A+</b><br />Blood</div>
-                <div class="col-6 mt-2"><b>175cm</b><br />Height</div>
-                <div class="col-6 mt-2"><b>72kg</b><br />Weight</div>
+                <div class="col-6"><b id="patient-age">24</b><br />Years</div>
+                <div class="col-6"><b id="patient-blood">A+</b><br />Blood</div>
+                <div class="col-6 mt-2"><b id="patient-height">175cm</b><br />Height</div>
+                <div class="col-6 mt-2"><b id="patient-weight">72kg</b><br />Weight</div>
               </div>
             </div>
             <br>
@@ -219,7 +269,6 @@
             </div>
           </div>
 
-          <!-- Activity -->
           <div class="col-md-6">
             <div class="card p-3">
               <h5>Your Activity (Week)</h5>
@@ -228,6 +277,7 @@
             <br>
 
             <div class="col-md-12">
+<<<<<<< HEAD
               <div class="card p-3 text-center">
                 <div class="d-flex justify-content-around align-items-center">
                   <div>
@@ -238,21 +288,54 @@
                     <div class="circle blue">83%</div>
                     <p>Water Balance</p>
                   </div>
+=======
+            <div class="card p-3 text-center">
+              <div class="d-flex justify-content-around align-items-center">
+                <div>
+                  <div class="circle red"><span id="general-health">75%</span></div>
+                  <p>General Health</p>
+                </div>
+                <div>
+                  <div class="circle blue"><span id="water-balance">83%</span></div>
+                  <p>Water Balance</p>
+>>>>>>> 95c1d4f7511edf4a32b9f9a9581104f7e693521f
                 </div>
               </div>
             </div>
 
           </div>
+<<<<<<< HEAD
 
           <!-- Stats -->
           <!-- Yearly Health -->
 
           
+=======
+          
+          </div>
+          
+          <div class="col-md-12">
+            <div class="card p-3">
+              <h4>Upload New Report</h4>
+              <form id="upload-form">
+                <div class="mb-2">
+                  <label for="file-input">Medical Report (PDF)</label>
+                  <input type="file" class="form-control" id="file-input" accept="application/pdf" required />
+                </div>
+                <button type="submit" class="btn btn-success">Generate Report</button>
+                <div class="mt-3" id="download-link-container" style="display: none;">
+                    <a id="download-link" href="#" class="btn btn-primary" download>Download Full Report</a>
+                </div>
+                <div class="mt-3" id="loading-message" style="display: none;">
+                    <p>Processing report... Please wait.</p>
+                </div>
+            </div>
+          </div>
+>>>>>>> 95c1d4f7511edf4a32b9f9a9581104f7e693521f
         </div>
 
       </main>
 
-      <!-- Right Sidebar -->
       <aside class="col-md-3">
         <div class="row g-3">
 <div class="col-12">
@@ -309,39 +392,141 @@
               Traumatologist – Dr. Terry Aminoff <span class="float-end">07 PM</span>
             </div>
           </div>
-          <!-- <div class="col-12">
-            <div class="card p-3">
-              <h5>Record Access History</h5>
-              <input type="email" class="form-control mb-2" placeholder="Enter your email" />
-              <button class="btn btn-outline-primary w-100">View Logs</button>
-              <div class="mt-2">
-                <p>No logs yet.</p>
-              </div>
-            </div>
-          </div> -->
-        </div>
+          </div>
       </aside>
     </div>
   </div>
 
   <script>
-    // Activity Chart
-    const ctx1 = document.getElementById("barChart");
-    new Chart(ctx1, {
-      type: "bar",
-      data: {
-        labels: ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
-        datasets: [
-          {
-            data: [70, 90, 80, 85, 60, 75, 65],
-            backgroundColor: "#fbbf24",
-            borderRadius: 6,
-          },
-        ],
-      },
-      options: { plugins: { legend: { display: false } } },
+    // References to the dashboard elements
+    const patientName = document.getElementById('patient-name');
+    const patientAge = document.getElementById('patient-age');
+    const patientBlood = document.getElementById('patient-blood');
+    const patientHeight = document.getElementById('patient-height');
+    const patientWeight = document.getElementById('patient-weight');
+    const generalHealth = document.getElementById('general-health');
+    const waterBalance = document.getElementById('water-balance');
+
+    const uploadForm = document.getElementById('upload-form');
+    const fileInput = document.getElementById('file-input');
+    const downloadLinkContainer = document.getElementById('download-link-container');
+    const downloadLink = document.getElementById('download-link');
+    const loadingMessage = document.getElementById('loading-message');
+
+    // Chart instances to be updated
+    let myBarChart;
+    let myLineChart;
+
+    // Function to update the charts with new data
+    function updateCharts(chartData) {
+      // Destroy existing charts if they exist
+      if (myBarChart) myBarChart.destroy();
+      if (myLineChart) myLineChart.destroy();
+
+      const ctx1 = document.getElementById("barChart").getContext("2d");
+      myBarChart = new Chart(ctx1, {
+        type: "bar",
+        data: {
+          labels: chartData.weekly_activity.labels,
+          datasets: [
+            {
+              data: chartData.weekly_activity.data,
+              backgroundColor: "#fbbf24",
+              borderRadius: 6,
+            },
+          ],
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        },
+      });
+
+      const ctx2 = document.getElementById("lineChart").getContext("2d");
+      myLineChart = new Chart(ctx2, {
+        type: "line",
+        data: {
+          labels: chartData.yearly_health.labels,
+          datasets: [
+            {
+              data: chartData.yearly_health.data,
+              borderColor: "#8b5cf6",
+              tension: 0.4,
+              fill: false,
+            },
+          ],
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        },
+      });
+    }
+
+    // Event listener for the form submission
+    uploadForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      if (fileInput.files.length === 0) {
+        alert('Please select a file to upload.');
+        return;
+      }
+
+      // Show loading message and hide download link
+      loadingMessage.style.display = 'block';
+      downloadLinkContainer.style.display = 'none';
+
+      const file = fileInput.files[0];
+      const formData = new FormData();
+      formData.append('file', file);
+
+      try {
+        const response = await fetch('/upload', {
+          method: 'POST',
+          body: formData
+        });
+
+        const result = await response.json();
+
+        if (!response.ok) {
+          throw new Error(result.message || 'Error uploading file.');
+        }
+
+        // Update dashboard elements with data from the response
+        patientName.textContent = result.patient_name;
+        patientAge.textContent = result.patient_age;
+        patientBlood.textContent = result.patient_blood;
+        patientHeight.textContent = result.patient_height;
+        patientWeight.textContent = result.patient_weight;
+        generalHealth.textContent = result.general_health;
+        waterBalance.textContent = result.water_balance;
+
+        // Update charts with data from the response
+        updateCharts(result.charts);
+
+        // Update and show the download link for the full report
+        if (result.download_url) {
+            downloadLink.href = result.download_url;
+            downloadLinkContainer.style.display = 'block';
+        }
+
+      } catch (error) {
+        console.error('Upload failed:', error);
+        alert('Failed to process the report: ' + error.message);
+      } finally {
+        loadingMessage.style.display = 'none';
+      }
     });
 
+<<<<<<< HEAD
     // Yearly Health Chart
     function generateCalendar(month, year) {
   const calendarBody = document.getElementById("calendarBody");
@@ -392,11 +577,25 @@ monthSelect.addEventListener("change", () => {
   generateCalendar(parseInt(monthSelect.value), currentYear);
 });
 
+=======
+    // Initial chart rendering with dummy data on page load
+    document.addEventListener('DOMContentLoaded', () => {
+      const dummyData = {
+        weekly_activity: {
+          labels: ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+          data: [70, 90, 80, 85, 60, 75, 65]
+        },
+        yearly_health: {
+          labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+          data: [40, 30, 41, 50, 70, 95, 60, 45, 55, 65, 75, 90]
+        }
+      };
+      updateCharts(dummyData);
+    });
+>>>>>>> 95c1d4f7511edf4a32b9f9a9581104f7e693521f
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
-
-
 </body>
 
 </html>

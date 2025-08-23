@@ -51,6 +51,7 @@
 {"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
 {"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
 {"level":"error","message":{"err":{"status":404},"path":"/favicon.ico"}}
+<<<<<<< HEAD
 {"level":"error","message":{"err":{"status":404},"path":"/login"}}
 {"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
 {"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
@@ -79,3 +80,12 @@
 {"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
 {"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
 {"level":"error","message":{"err":{"status":404},"path":"/login"}}
+=======
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/favicon.ico"}}
+>>>>>>> 95c1d4f7511edf4a32b9f9a9581104f7e693521f
