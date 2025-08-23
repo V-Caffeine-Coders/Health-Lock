@@ -1,12 +1,9 @@
-import { Router } from "express";
-import patientRoutes from "./patient.routes.js";
-import recordsRoutes from "./records.routes.js";
-import logsRoutes from "./logs.routes.js";
+import express from "express";
+const router = express.Router();
 
-const router = Router();
-
-router.use("/patient", patientRoutes);
-router.use("/records", recordsRoutes);
-router.use("/logs", logsRoutes);
+router.post("/upload", (req, res) => {
+  console.log("Body received:", req.body);
+  res.json({ message: "Form data received successfully!" });
+});
 
 export default router;

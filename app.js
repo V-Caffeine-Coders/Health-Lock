@@ -48,6 +48,10 @@ app.use((req, res, next) => {
   next(error);
 });
 
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/public/index.html");
+});
+
 // Global Error Handler
 app.use(errorHandler);
 

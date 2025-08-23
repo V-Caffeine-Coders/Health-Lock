@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Med - Secure Health Records</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Transparent Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute w-100" style="z-index: 10;">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand fw-bold" href="#">QR Med</a>
+
+      <!-- Mobile Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="upload.html">Upload</a></li>
+          <li class="nav-item"><a class="nav-link active" href="dashboard.html">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="container-fluid position-relative p-0">
+    <img src="/assets/hero-medical.jpg" alt="Hero Image" class="img-fluid w-100" style="height: auto;">
+    <div class="position-absolute top-0 start-0 w-100 h-100"
+      style="background-color: rgba(0, 0, 0, 0.55); z-index: 1;"></div>
+
+    <div class="position-absolute top-50 start-50 translate-middle text-white fw-bold text-center"
+      style="text-shadow: 2px 2px 5px rgba(0,0,0,0.7); z-index: 2;">
+      <h1 class="display-5">Your Health. Your Data. Your Control.</h1>
+      <p class="mt-3 fs-5">QR Med makes sharing medical records fast, safe, and secure through encrypted QR codes.</p>
+      <a href="upload.html" class="btn mt-3" style="background: rgb(11, 52, 46); color: white; border-radius: 0px; font-size: large;">Get Started</a>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="container my-5 p-4 bg-white shadow rounded">
+    <div id="about" class="mb-4">
+      <h2 class="fw-bold border-start border-4 border-success ps-2">About Us</h2>
+      <p>
+        QR Med is built to give patients control over their health data. Instead of carrying bulky files or worrying
+        about privacy, patients can now upload medical reports securely and generate a unique QR code. This QR code can
+        be scanned by doctors to instantly access reports in a safe, encrypted manner — ensuring efficiency,
+        transparency, and peace of mind.
+      </p>
+    </div><br>
+
+    <!-- Mission -->
+    <section id="mission" class="mb-4">
+      <h2 class="fw-bold border-start border-4 border-success ps-2">Our Mission</h2>
+      <p>
+        Our mission is to revolutionize healthcare data sharing by making it secure, patient-centric, and effortless.
+        We believe that health data belongs to patients — and they should decide how and when it is shared. With QR Med,
+        we aim to eliminate inefficiencies in healthcare systems, prevent data misuse, and empower patients to take
+        control of their medical history.
+      </p>
+    </section>
+
+    <!-- What We Do -->
+    <div class="mb-4">
+      <h2 class="fw-bold border-start border-4 border-success ps-2">What We Do</h2>
+      <p>
+        With QR Med, patients can:
+      </p>
+      <ul>
+        <li>Upload medical reports securely (PDFs only)</li>
+        <li>Generate unique QR codes instantly</li>
+        <li>Allow doctors to scan and access reports securely</li>
+        <li>View access logs to track who viewed their reports</li>
+      </ul>
+    </div><br>
+
+    <!-- Who We Help -->
+    <div class="mb-4">
+      <h2 class="fw-bold border-start border-4 border-success ps-2">Who We Help</h2>
+      <ul>
+        <li><strong>Patients:</strong> Securely manage and share health records.</li>
+        <li><strong>Doctors:</strong> Access patient reports instantly via QR codes.</li>
+        <li><strong>Hospitals & Clinics:</strong> Reduce paperwork and streamline data sharing.</li>
+        <li><strong>Healthcare Systems:</strong> Improve efficiency and security in record management.</li>
+      </ul>
+    </div><br>
+
+    <!-- Vision -->
+    <div class="mb-4">
+      <h2 class="fw-bold border-start border-4 border-success ps-2">Our Vision</h2>
+      <p>
+        We envision a healthcare system where patients truly own their data, doctors get quick access to critical
+        information, and healthcare delivery becomes faster and more secure. QR Med is a step toward a future where
+        technology ensures health data remains private, portable, and patient-first.
+      </p>
+    </div>
+  </div><br>
+
+  <!-- Floating FAQs -->
+  <a href="faq.html" class="btn btn-dark position-fixed bottom-0 end-0 m-3 rounded-pill">FAQs</a>
+
+  <!-- Footer -->
+  <footer class="text-white py-4 mt-5" style="background-color: #0b342e;">
+    <div class="container text-center">
+      <p class="mb-1">© 2025 QR Med. All rights reserved.</p>
+      <p class="mb-0">
+        <a href="about.html" class="text-white text-decoration-none me-3">About</a>
+        <a href="contact.html" class="text-white text-decoration-none me-3">Contact</a>
+        <a href="faq.html" class="text-white text-decoration-none">FAQs</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

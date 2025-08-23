@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patient Dashboard - QR Med</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+
+  <style>
+    body {
+      background: linear-gradient(to right, #eef2ff, #ede9fe);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .row {
+  --bs-gutter-x: 0; /* Horizontal gap 0 */
+  --bs-gutter-y: 0; /* Vertical gap 0 */
+}
+
+.sidebar {
+  min-height: 100vh;
+  background: #444040;
+  color: #f9fafb;
+  margin: 0;
+  padding: 20px;
+  border-radius: 0; /* Left edge bilkul attach */
+}
+
+
+   .sidebar {
+  min-height: 100vh;
+  background: #444040;
+  color: #f9fafb;
+
+  margin: 0;         /* Remove margin completely */
+  padding: 20px;     /* Optional: keep inner spacing */
+  border-radius: 0;  /* Remove border-radius from left corners */
+}
+
+    .sidebar .nav-link {
+      color: #f9fafb;
+    }
+
+    .sidebar .nav-link:hover {
+      color: #60a5fa;
+    }
+
+    .card {
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Centering the form */
+    .main-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .upload-card {
+      width: 100%;
+      max-width: 500px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row g-3">
+      <!-- Sidebar -->
+      <aside class="col-md-2 sidebar p-3 vh-100 d-flex flex-column justify-content-between">
+        <div>
+          <div class="text-center mb-4">
+            <img src="/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png" alt="Logo"
+              style="height: 80px;" />
+          </div>
+
+          <ul class="nav flex-column">
+            <li class="nav-item mb-3">
+              <a href="#" class="nav-link"><i class="bi bi-house-fill me-2"></i> Overview</a>
+            </li>
+            <li class="nav-item mb-3">
+              <a href="#" class="nav-link"><i class="bi bi-cloud-arrow-up-fill me-2"></i> Upload</a>
+            </li>
+            <li class="nav-item mb-3">
+              <a href="#" class="nav-link"><i class="bi bi-clock-history me-2"></i> History</a>
+            </li>
+            <li class="nav-item mb-3">
+              <a href="#" class="nav-link"><i class="bi bi-bell-fill me-2"></i> Alerts</a>
+            </li>
+            <li class="nav-item mb-3">
+              <a href="#" class="nav-link"><i class="bi bi-person-circle me-2"></i> My Profile</a>
+            </li>
+            <li class="nav-item mb-3 d-flex justify-content-between align-items-center">
+              <a href="#" class="nav-link"><i class="bi bi-chat-dots-fill me-2"></i> Messages</a>
+              <span class="badge bg-danger">3</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="text-center mt-3">
+          <button class="btn btn-outline-primary btn-sm me-2">English</button>
+          <button class="btn btn-outline-success btn-sm">हिन्दी</button>
+        </div>
+        <button class="btn btn-outline-dark btn-sm me-2">Logout</button>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="col-md-10 main-content">
+        <div class="card p-4 upload-card">
+          <h5 class="mb-3 text-center">📑 Upload New Report</h5>
+          <form id="upload-form" action="/api/upload" method="POST">
+            <div class="mb-3">
+              <label class="form-label">Your Name</label>
+              <input type="text" class="form-control" name="name" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" name="email" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Medical Report (PDF)</label>
+              <input type="file" class="form-control" name="report" accept="application/pdf" required />
+            </div>
+            <button type="submit" class="btn btn-success w-100">Generate QR Code</button>
+          </form>
+
+          <script>
+            document.getElementById("upload-form").addEventListener("submit", async (e) => {
+              e.preventDefault();
+
+              const formData = new FormData(e.target);
+
+              try {
+                const res = await fetch("/api/upload", {
+                  method: "POST",
+                  body: formData,
+                });
+
+                const data = await res.json();
+                alert(data.message || "File uploaded successfully!");
+              } catch (err) {
+                console.error(err);
+                alert("Upload failed!");
+              }
+            });
+          </script>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

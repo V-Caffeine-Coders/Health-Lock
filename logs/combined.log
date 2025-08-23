@@ -401,3 +401,89 @@
 {"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:10:58.828Z","url":"/style.css"}}
 {"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:10:58.832Z","url":"/script.js"}}
 {"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:11:02.710Z","url":"/api/records/68a8887f464ab9ecca6868f6?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4ODg3ZjQ2NGFiOWVjY2E2ODY4ZjYiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODc1NDU2LCJleHAiOjE3NTU4NzYwNTZ9.tpOu1D2ng9vU1eDpRXlOoZB4mprPY5YtfVhcq2UzSuE"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T17:45:14.298Z","url":"/login"}}
+{"level":"error","message":{"err":{"status":404},"path":"/login"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T17:45:20.859Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T17:45:21.027Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T17:45:21.034Z","url":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T17:45:21.378Z","url":"/favicon.ico"}}
+{"level":"error","message":{"err":{"status":404},"path":"/favicon.ico"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T17:59:57.296Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T17:59:57.372Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T17:59:57.376Z","url":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T17:59:58.492Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T17:59:58.569Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T17:59:58.606Z","url":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:00:08.081Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:00:08.127Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:00:08.140Z","url":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:00:08.281Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:00:08.324Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:00:08.333Z","url":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:00:08.506Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:00:08.542Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:00:08.569Z","url":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:08:23.867Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:08:23.945Z","url":"/script.js"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:08:23.952Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:08:25.560Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:08:25.612Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:08:25.627Z","url":"/script.js"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:08:41.171Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:08:41.225Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:08:41.235Z","url":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:11:23.175Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:11:23.232Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:11:23.246Z","url":"/script.js"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:11:24.813Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:11:24.867Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:11:24.878Z","url":"/script.js"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:16:12.935Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:16:13.019Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:16:13.030Z","url":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:16:13.534Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:16:13.600Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:16:13.610Z","url":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:16:14.620Z","url":"/"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:16:14.667Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:16:14.669Z","url":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/144-1442578_flat-person-icon-download-dummy-man-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T18:16:31.461Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-23T02:20:15.869Z","url":"/login"}}
+{"level":"error","message":{"err":{"status":404},"path":"/login"}}
