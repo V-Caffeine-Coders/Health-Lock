@@ -1,7 +1,11 @@
+import os
+import time
+import json
+import google.generativeai as genai
+from dotenv import load_dotenv
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
-import os
 
 def create_downloadable_pdf(report_text, output_path):
     """
@@ -34,22 +38,41 @@ def create_downloadable_pdf(report_text, output_path):
         print(f"Error creating PDF: {e}")
         return None
 
-# Assuming master_report_text is already populated
-# from your GenAI model (e.g., master_report_text = "...")
+def extract_dashboard_data(master_report_text):
+    """
+    Asks GenAI to extract key metrics from the master report text
+    and format them as JSON for a dashboard.
+    """
+    load_dotenv()
+    google_api_key = os.getenv("GOOGLE_API_KEY")
+    genai.configure(api_key=google_api_key)
+    
+    prompt_template = """
+    You are a data extraction assistant. Analyze the following health report summary and extract the most critical data points. Format the output as a single JSON object.
 
-# Define the folder and filename
-output_folder = r"D:\my_code_profile\Sunhacks\Health-Lock\AIworking\output\download"
-output_filename = "health_report_123.pdf"
+    Extract the following fields:
+    - `patient_name`: The name of the patient.
+    - `last_report_date`: The date of the most recent report.
+    - `last_abnormal_finding`: The most important or latest concerning health metric. Provide a brief, simple explanation. If no abnormal finding is mentioned, use "No abnormal findings."
 
-# Create the folder if it doesn't exist
-if not os.path.exists(output_folder):
-    os.makedirs(output_folder)
+    Ensure the output is valid JSON, with no extra text or characters.
 
-# Construct the full path for the output file
-output_path = os.path.join(output_folder, output_filename)
-
-# Call the function with the correct arguments
-pdf_file_path = create_downloadable_pdf("Your sample report text.", output_path)
-
-if pdf_file_path:
-    print(f"File is ready for download at: {pdf_file_path}")
+    Here is the health report summary:
+    {report_text}
+    """
+    
+    full_prompt = prompt_template.replace("{report_text}", master_report_text)
+    
+    model = genai.GenerativeModel('gemini-1.0-pro')
+    
+    try:
+        response = model.generate_content(full_prompt)
+        dashboard_data = json.loads(response.text)
+        return dashboard_data
+    except Exception as e:
+        print(f"Error extracting dashboard data: {e}")
+        return {
+            "patient_name": "Not found",
+            "last_report_date": "Not found",
+            "last_abnormal_finding": "Could not extract data."
+        }

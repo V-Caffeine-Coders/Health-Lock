@@ -401,3 +401,23 @@
 {"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:10:58.828Z","url":"/style.css"}}
 {"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:10:58.832Z","url":"/script.js"}}
 {"level":"info","message":{"method":"GET","timestamp":"2025-08-22T15:11:02.710Z","url":"/api/records/68a8887f464ab9ecca6868f6?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGE4ODg3ZjQ2NGFiOWVjY2E2ODY4ZjYiLCJzY29wZSI6InJlY29yZDpyZWFkIiwiaWF0IjoxNzU1ODc1NDU2LCJleHAiOjE3NTU4NzYwNTZ9.tpOu1D2ng9vU1eDpRXlOoZB4mprPY5YtfVhcq2UzSuE"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-22T23:57:38.628Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-23T00:02:42.559Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-23T00:03:20.108Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-23T00:03:42.233Z","url":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"error","message":{"err":{"status":404},"path":"/.well-known/appspecific/com.chrome.devtools.json"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-23T00:03:42.243Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-23T02:20:48.524Z","url":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"error","message":{"err":{"status":404},"path":"/Health-Lock/assets/Screenshot_2025-08-22_165017-removebg-preview.png"}}
+{"level":"info","message":{"method":"GET","timestamp":"2025-08-23T02:20:49.405Z","url":"/favicon.ico"}}
+{"level":"error","message":{"err":{"status":404},"path":"/favicon.ico"}}

@@ -1,5 +1,55 @@
 [
     {
+        "filename": "Health_Report_1.pdf",
+        "report_date": "2025-08-22",
+        "full_text_content": "Health Report Patient Name: John Doe Age: 35 Gender: Male Patient ID: P123456 Date: 22-Aug-2025 Vitals Height 175 cm Weight 70 kg Blood Pressure 120/80 mmHg Pulse 72 bpm Temperature 98.6 F BMI 22.9 Lab Test Results Test Result Normal Range Blood Sugar (Fasting) 90 mg/dL 70-100 mg/dL Cholesterol 180 mg/dL < 200 mg/dL Hemoglobin 14.0 g/dL 13-17 g/dL WBC Count 6000 /\u00b5L 4000-11000 /\u00b5L Doctor's Remarks Patient is in good health. Recommended to maintain regular check-ups and continue healthy lifestyle. Prescription Multivitamin tablets (once daily). Doctor: Dr. Smith Hospital: City Health Clinic ",
+        "parsed_data": {
+            "patient_name": "John Doe",
+            "age": "35",
+            "gender": "Male"
+        }
+    },
+    {
+        "filename": "Health_Report_2.pdf",
+        "report_date": "2025-08-23",
+        "full_text_content": "Health Report Patient Name: John Doe Age: 36 Gender: Male Patient ID: P123456 Date: 23-Aug-2025 Vitals Height 175 cm Weight 71 kg Blood Pressure 121/81 mmHg Pulse 73 bpm Temperature 98.6 F BMI 23.1 Lab Test Results Test Result Normal Range Blood Sugar (Fasting) 91 mg/dL 70-100 mg/dL Cholesterol 182 mg/dL < 200 mg/dL Hemoglobin 14.1 g/dL 13-17 g/dL WBC Count 6100 /\u00b5L 4000-11000 /\u00b5L Doctor's Remarks Patient is in good health. Recommended to maintain regular check-ups and continue healthy lifestyle. Prescription Multivitamin tablets (once daily). Doctor: Dr. Smith Hospital: City Health Clinic ",
+        "parsed_data": {
+            "patient_name": "John Doe",
+            "age": "36",
+            "gender": "Male"
+        }
+    },
+    {
+        "filename": "Health_Report_3.pdf",
+        "report_date": "2025-08-24",
+        "full_text_content": "Health Report Patient Name: John Doe Age: 37 Gender: Male Patient ID: P123456 Date: 24-Aug-2025 Vitals Height 175 cm Weight 72 kg Blood Pressure 122/82 mmHg Pulse 74 bpm Temperature 98.6 F BMI 23.3 Lab Test Results Test Result Normal Range Blood Sugar (Fasting) 92 mg/dL 70-100 mg/dL Cholesterol 184 mg/dL < 200 mg/dL Hemoglobin 14.2 g/dL 13-17 g/dL WBC Count 6200 /\u00b5L 4000-11000 /\u00b5L Doctor's Remarks Patient is in good health. Recommended to maintain regular check-ups and continue healthy lifestyle. Prescription Multivitamin tablets (once daily). Doctor: Dr. Smith Hospital: City Health Clinic ",
+        "parsed_data": {
+            "patient_name": "John Doe",
+            "age": "37",
+            "gender": "Male"
+        }
+    },
+    {
+        "filename": "Health_Report_4.pdf",
+        "report_date": "2025-08-25",
+        "full_text_content": "Health Report Patient Name: John Doe Age: 38 Gender: Male Patient ID: P123456 Date: 25-Aug-2025 Vitals Height 175 cm Weight 73 kg Blood Pressure 123/83 mmHg Pulse 75 bpm Temperature 98.6 F BMI 23.5 Lab Test Results Test Result Normal Range Blood Sugar (Fasting) 93 mg/dL 70-100 mg/dL Cholesterol 186 mg/dL < 200 mg/dL Hemoglobin 14.3 g/dL 13-17 g/dL WBC Count 6300 /\u00b5L 4000-11000 /\u00b5L Doctor's Remarks Patient is in good health. Recommended to maintain regular check-ups and continue healthy lifestyle. Prescription Multivitamin tablets (once daily). Doctor: Dr. Smith Hospital: City Health Clinic ",
+        "parsed_data": {
+            "patient_name": "John Doe",
+            "age": "38",
+            "gender": "Male"
+        }
+    },
+    {
+        "filename": "Health_Report_5.pdf",
+        "report_date": "2025-08-26",
+        "full_text_content": "Health Report Patient Name: John Doe Age: 39 Gender: Male Patient ID: P123456 Date: 26-Aug-2025 Vitals Height 175 cm Weight 74 kg Blood Pressure 124/84 mmHg Pulse 76 bpm Temperature 98.6 F BMI 23.7 Lab Test Results Test Result Normal Range Blood Sugar (Fasting) 94 mg/dL 70-100 mg/dL Cholesterol 188 mg/dL < 200 mg/dL Hemoglobin 14.4 g/dL 13-17 g/dL WBC Count 6400 /\u00b5L 4000-11000 /\u00b5L Doctor's Remarks Patient is in good health. Recommended to maintain regular check-ups and continue healthy lifestyle. Prescription Multivitamin tablets (once daily). Doctor: Dr. Smith Hospital: City Health Clinic ",
+        "parsed_data": {
+            "patient_name": "John Doe",
+            "age": "39",
+            "gender": "Male"
+        }
+    },
+    {
         "filename": "sample_health_report.pdf",
         "report_date": "2025-08-22",
         "full_text_content": "Health Report Patient Name: John Doe Age: 35 Gender: Male Patient ID: P123456 Date: 22-Aug-2025 Vitals Height 175 cm Weight 70 kg Blood Pressure 120/80 mmHg Pulse 72 bpm Temperature 98.6 F BMI 22.9 Lab Test Results Test Result Normal Range Blood Sugar (Fasting) 95 mg/dL 70-100 mg/dL Cholesterol 180 mg/dL < 200 mg/dL Hemoglobin 14 g/dL 13-17 g/dL WBC Count 6000 /\u00b5L 4000-11000 /\u00b5L Doctor's Remarks Patient is in good health. Recommended to continue regular exercise and balanced diet. No medication required at this time. Prescription Vitamin D supplements (once daily for 3 months). Doctor: Dr. Smith Hospital: City Health Clinic ",

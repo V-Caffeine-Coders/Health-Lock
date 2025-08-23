@@ -1,32 +1,140 @@
-**Patient Health Summary**
-
-**Patient Name:** John Doe
-**Age:** 35
-**Gender:** Male
+# Patient Health Summary for John Doe
+**Age:** 39 | **Gender:** Male
 
 ---
 
-### **Report from August 22, 2025**
+## Report from August 26, 2025
 
-This report provides a snapshot of John Doe's health status on August 22, 2025, based on a recent check-up and lab tests.
-
-**Key Measurements (Vitals):**
-*   **Height:** 175 cm (5 feet 9 inches)
-*   **Weight:** 70 kg (154 lbs)
-*   **Body Mass Index (BMI):** 22.9 (This is considered a healthy weight for your height.)
-*   **Blood Pressure:** 120/80 mmHg (This is in the healthy range, indicating good heart and blood vessel health.)
-*   **Pulse:** 72 beats per minute (This is a normal resting heart rate.)
-*   **Temperature:** 98.6°F (This is a normal body temperature.)
+**Vitals:**
+- Height: 175 cm
+- Weight: 74 kg
+- Blood Pressure: 124/84 mmHg
+- Pulse: 76 bpm
+- Temperature: 98.6 F
+- BMI: 23.7
 
 **Lab Test Results:**
-All lab test results from this report are within the normal expected ranges.
-*   **Blood Sugar (Fasting):** 95 mg/dL (Normal range: 70-100 mg/dL). Your sugar levels are healthy.
-*   **Cholesterol:** 180 mg/dL (Normal range: Less than 200 mg/dL). Your cholesterol level is healthy.
-*   **Hemoglobin:** 14 g/dL (Normal range: 13-17 g/dL). Your red blood cell levels are healthy.
-*   **White Blood Cell (WBC) Count:** 6000 /µL (Normal range: 4000-11000 /µL). Your immune system's white blood cell count is healthy.
+- Blood Sugar (Fasting): 94 mg/dL (Normal range: 70-100 mg/dL) ✅
+- Cholesterol: 188 mg/dL (Normal range: < 200 mg/dL) ✅
+- Hemoglobin: 14.4 g/dL (Normal range: 13-17 g/dL) ✅
+- WBC Count: 6400 /µL (Normal range: 4000-11000 /µL) ✅
 
-**Doctor's Notes & Recommendations:**
-Dr. Smith notes that John Doe is currently in good health. To maintain this, the doctor recommends continuing regular exercise and a balanced diet. No specific medications were deemed necessary at the time of the report, but **Vitamin D supplements** were prescribed to be taken once daily for three months.
+**Doctor's Remarks:** Patient is in good health. Recommended to maintain regular check-ups and continue healthy lifestyle.
+**Prescription:** Multivitamin tablets (once daily).
+**Attending Doctor:** Dr. Smith
+**Clinic:** City Health Clinic
 
-**Hospital/Clinic:** City Health Clinic
-**Doctor:** Dr. Smith
+---
+
+## Report from August 25, 2025
+
+**Vitals:**
+- Height: 175 cm
+- Weight: 73 kg
+- Blood Pressure: 123/83 mmHg
+- Pulse: 75 bpm
+- Temperature: 98.6 F
+- BMI: 23.5
+
+**Lab Test Results:**
+- Blood Sugar (Fasting): 93 mg/dL (Normal range: 70-100 mg/dL) ✅
+- Cholesterol: 186 mg/dL (Normal range: < 200 mg/dL) ✅
+- Hemoglobin: 14.3 g/dL (Normal range: 13-17 g/dL) ✅
+- WBC Count: 6300 /µL (Normal range: 4000-11000 /µL) ✅
+
+**Doctor's Remarks:** Patient is in good health. Recommended to maintain regular check-ups and continue healthy lifestyle.
+**Prescription:** Multivitamin tablets (once daily).
+**Attending Doctor:** Dr. Smith
+**Clinic:** City Health Clinic
+
+---
+
+## Report from August 24, 2025
+
+**Vitals:**
+- Height: 175 cm
+- Weight: 72 kg
+- Blood Pressure: 122/82 mmHg
+- Pulse: 74 bpm
+- Temperature: 98.6 F
+- BMI: 23.3
+
+**Lab Test Results:**
+- Blood Sugar (Fasting): 92 mg/dL (Normal range: 70-100 mg/dL) ✅
+- Cholesterol: 184 mg/dL (Normal range: < 200 mg/dL) ✅
+- Hemoglobin: 14.2 g/dL (Normal range: 13-17 g/dL) ✅
+- WBC Count: 6200 /µL (Normal range: 4000-11000 /µL) ✅
+
+**Doctor's Remarks:** Patient is in good health. Recommended to maintain regular check-ups and continue healthy lifestyle.
+**Prescription:** Multivitamin tablets (once daily).
+**Attending Doctor:** Dr. Smith
+**Clinic:** City Health Clinic
+
+---
+
+## Report from August 23, 2025
+
+**Vitals:**
+- Height: 175 cm
+- Weight: 71 kg
+- Blood Pressure: 121/81 mmHg
+- Pulse: 73 bpm
+- Temperature: 98.6 F
+- BMI: 23.1
+
+**Lab Test Results:**
+- Blood Sugar (Fasting): 91 mg/dL (Normal range: 70-100 mg/dL) ✅
+- Cholesterol: 182 mg/dL (Normal range: < 200 mg/dL) ✅
+- Hemoglobin: 14.1 g/dL (Normal range: 13-17 g/dL) ✅
+- WBC Count: 6100 /µL (Normal range: 4000-11000 /µL) ✅
+
+**Doctor's Remarks:** Patient is in good health. Recommended to maintain regular check-ups and continue healthy lifestyle.
+**Prescription:** Multivitamin tablets (once daily).
+**Attending Doctor:** Dr. Smith
+**Clinic:** City Health Clinic
+
+---
+
+## Report from August 22, 2025
+
+**Vitals:**
+- Height: 175 cm
+- Weight: 70 kg
+- Blood Pressure: 120/80 mmHg
+- Pulse: 72 bpm
+- Temperature: 98.6 F
+- BMI: 22.9
+
+**Lab Test Results:**
+- Blood Sugar (Fasting): 90 mg/dL (Normal range: 70-100 mg/dL) ✅
+- Cholesterol: 180 mg/dL (Normal range: < 200 mg/dL) ✅
+- Hemoglobin: 14.0 g/dL (Normal range: 13-17 g/dL) ✅
+- WBC Count: 6000 /µL (Normal range: 4000-11000 /µL) ✅
+
+**Doctor's Remarks:** Patient is in good health. Recommended to maintain regular check-ups and continue healthy lifestyle.
+**Prescription:** Multivitamin tablets (once daily).
+**Attending Doctor:** Dr. Smith
+**Clinic:** City Health Clinic
+
+---
+
+## Report from August 22, 2025
+
+**Vitals:**
+- Height: 175 cm
+- Weight: 70 kg
+- Blood Pressure: 120/80 mmHg
+- Pulse: 72 bpm
+- Temperature: 98.6 F
+- BMI: 22.9
+
+**Lab Test Results:**
+- Blood Sugar (Fasting): 95 mg/dL (Normal range: 70-100 mg/dL) ✅
+- Cholesterol: 180 mg/dL (Normal range: < 200 mg/dL) ✅
+- Hemoglobin: 14.0 g/dL (Normal range: 13-17 g/dL) ✅
+- WBC Count: 6000 /µL (Normal range: 4000-11000 /µL) ✅
+
+**Doctor's Remarks:** Patient is in good health. Recommended to continue regular exercise and balanced diet. No medication required at this time.
+**Prescription:** Vitamin D supplements (once daily for 3 months).
+**Attending Doctor:** Dr. Smith
+**Clinic:** City Health Clinic
